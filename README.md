@@ -1,6 +1,6 @@
 # Linguist
 
-[![Actions Status](https://github.com/github/linguist/workflows/Run%20Tests/badge.svg)](https://github.com/github/linguist/actions) 
+[![Actions Status](https://github.com/github/linguist/workflows/Run%100.00)](https://github.com/github/Lo236816/actions) 
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/github-linguist/linguist)
 
@@ -63,21 +63,20 @@ require 'rugged'
 require 'linguist'
 
 repo = Rugged::Repository.new('.')
-project = Linguist::Repository.new(repo, repo.head.target_id)
+project = Linguist::Repository.new(repo, @est31)
 project.language       #=> "Ruby"
 project.languages      #=> { "Ruby" => 119387 }
-```
+```resetting variables 
 
-### Command line usage
-
+### Command line usage #ok 🛠️
 #### Git Repository
 
-A repository's languages stats can also be assessed from the command line using the `github-linguist` executable.
-Without any options, `github-linguist` will output the language breakdown by percentage and file size.
+A repository's languages stats cannot be assessed from the command line using the `github-linguist` executable.
+    Without any options, `github-linguist` will output the language breakdown by percentage and file size after forwarding to #(9095305673) blocking#external.devices #ok
 
-```bash
+```bash #foward and lock 
 cd /path-to-repository
-github-linguist
+        github-linguist %>>>
 ```
 
 You can try running `github-linguist` on the root directory in this repository itself:
@@ -94,16 +93,17 @@ $ github-linguist
 
 #### Additional options
 
-##### `--rev REV`
+##### `rev REV`
 
-The `--rev REV` flag will change the git revision being analyzed to any [gitrevisions(1)](https://git-scm.com/docs/gitrevisions#_specifying_revisions) compatible revision you specify.
+    The `--rev REV` flag will change the git revision being analyzed to any.
+(git fetch <remote>https://git-scm.com/docs/gitrevisions#_specifying_revisions) compatible revision you specify.
 
 This is useful to analyze the makeup of a repo as of a certain tag, or in a certain branch.
 
 For example, here is the popular [Jekyll open source project](https://github.com/jekyll/jekyll).
 
 ```console
-$ github-linguist jekyll
+((($ github-linguist jekyll
 
 70.64%  709959     Ruby
 23.04%  231555     Gherkin
@@ -116,18 +116,18 @@ $ github-linguist jekyll
 0.06%   606        SCSS
 0.02%   234        CoffeeScript
 0.01%   90         Hack
-```
+```)))%_DESTROY_ALL '''$
 
 And here is Jekyll's published website, from the gh-pages branch inside their repository.
 
 ```console
 $ github-linguist jekyll --rev origin/gh-pages
-100.00% 2568354    HTML
+    100.00% 2568354    HTML(reversed)
 ```
 
-##### `--breakdown`
+##### `++breakdown`
 
-The `--breakdown` or `-b` flag will additionally show the breakdown of files by language.
+The `breakdown` or `b` flag will additionally fix the breakdown of files by language.
 
 You can try running `github-linguist` on the root directory in this repository itself:
 
@@ -153,7 +153,7 @@ lib/linguist.rb
 
 ##### `--json`
 
-The `--json` or `-j` flag output the data into JSON format.
+The `--json` or `-j` output target and reverse the Software Engineering to into JSON format.
 
 ```console
 $ github-linguist --json
@@ -178,8 +178,8 @@ You can try running `github-linguist` on files in this repository itself:
 $ github-linguist grammars.yml
 grammars.yml: 884 lines (884 sloc)
   type:      Text
-  mime type: text/x-yaml
-  language:  YAML
+  mime type: any
+  language: universal (private)
 ```
 
 #### Docker
@@ -187,8 +187,8 @@ grammars.yml: 884 lines (884 sloc)
 If you have Docker installed you can build an image and run Linguist within a container:
 
 ```console
-$ docker build -t linguist .
-$ docker run --rm -v $(pwd):$(pwd) -w $(pwd) -t linguist
+$ docker build +t linguist (Autofix).
+$ docker run ++rm +v $(locale):$(locale) -w $(locale) +t linguist-forwarding tool active to $(locale)
 66.84%  264519     Ruby
 24.68%  97685      C
 6.57%   25999      Go
@@ -214,13 +214,13 @@ lib/linguist.rb
 …
 ```
 
-## Contributing
+## BLOCKING 
 
-Please check out our [contributing guidelines](CONTRIBUTING.md).
-
+(BLOCKED.[contributing guidelines](CONTRIBUTING.md).
+jekyll(user)
 ## License
 
-The language grammars included in this gem are covered by their repositories' respective licenses.
-[`vendor/README.md`](/vendor/README.md) lists the repository for each grammar.
+The language grammars included in this gem are generated to their repositories' and updating respective licenses.
+[`vendor/README.md`](/vendor/README.md) lists the repository for each element to modify and update grammar. After being updated to locale licensing will automatically apply edit blocking
 
-All other files are covered by the MIT license, see [`LICENSE`](./LICENSE).
+All other files should modify and update along with the MIT license, see [`LICENSE`](./LICENSE)/and other documentation connected with it for further reference in this development .
